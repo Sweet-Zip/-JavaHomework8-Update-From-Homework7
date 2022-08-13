@@ -11,7 +11,6 @@ public class Login {
     private String password;
     ArrayList<Account> array = new ArrayList<Account>();
     public static final int PASSWORD_LENGTH = 8;
-    private Pattern patternPassword = Pattern.compile("^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=.*[!@#&()–[{}]:;',?/*~$^+=<>]).{8,20}$");
     StudentManagement studentManagement = new StudentManagement();
 
     public Login() throws IOException {
